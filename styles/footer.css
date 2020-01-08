@@ -1,0 +1,41 @@
+/*footer syles*/
+.site-footer {
+	padding:5%;
+	min-height:20vh;
+	margin-left: -5%;
+	margin-right: -5%;
+}
+.site-footer .wrap {
+	text-align:center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 100%;
+	margin-top: 25%;
+	margin-bottom: 25%;
+}
+
+.site-info a{
+	font-family: 'Open Sans', sans-serif;
+}
+.site-info aside{
+	font-family: 'Open Sans', sans-serif;
+}s
+.site-footer .widget-column.footer-widget-2{
+    float:none;
+    width: 100%;
+}
+.site-footer .widget{
+    padding:0px;
+}
+.site-footer .menu li{
+    list-style: none;
+}
+
+
+@media screen and (min-width: 48em) {
+	.site-footer {
+		min-height: 50vh;
+	}
+}

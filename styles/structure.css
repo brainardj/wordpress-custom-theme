@@ -1,0 +1,30 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/**
+ * @selector #page
+ * @description - Force the div#page element to inherit the body color
+ *  from site.json.
+ */
+#page {
+	background-color:inherit;
+}
+
+#global-header {
+	background-color:inherit;
+}
+
+footer {
+	background-color:inherit;
+	color:inherit;
+}

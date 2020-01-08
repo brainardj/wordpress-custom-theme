@@ -1,0 +1,25 @@
+{
+    "name": "clickpdx/wireframe",
+    "description": "Wireframe Theme for WordPress",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "trevoruehlinx1",
+            "email": "trevoruehlinx1@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+	    "php": "^7"
+    },
+    "options":{
+        "change-comment": "Most requires were properly part of the clickpdx/devenv repo.",
+        "require-comment": "We need at least PHP 7.0 to use this WordPress theme."
+    }
+}

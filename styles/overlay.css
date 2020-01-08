@@ -1,0 +1,159 @@
+.overlay-content {
+	background-color: inherit;
+	color:inherit;
+	padding-left:2%;
+}
+
+
+.admin-bar #overlay {
+	margin-top:47px;
+}
+@media screen and (min-width:1200px) {
+	.admin-bar #overlay {
+			margin-top: 32px;
+	}
+}
+
+#overlay .custom-logo-link {
+	line-height:10px;
+}
+
+
+.toggles-overlay {
+  position: relative;
+	display:inline-block;
+	width:1.5em;
+	border-top-width:0.125em;
+	border-top-style:solid;
+	border-top-color:inherit;
+	border-bottom-width:0.125em;
+	border-bottom-color:inherit;
+	border-bottom-style:solid;
+}
+.toggles-overlay:before {
+  content: "";
+  position: absolute;
+  top: -0.45rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom-width: 0.125em;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+}
+
+
+
+.icon {
+	vertical-align:middle;
+	line-height: 0.75rem;
+	cursor:pointer;
+}
+
+
+.navigation-main .menu li {
+	font-size:1.2em;
+	line-height:2.0em;
+	border-bottom-width: 1px;
+	border-bottom-style: groove;
+	border-bottom-color:inherit;
+}
+
+.navigation-main .menu {
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:inherit;
+}
+
+
+
+.toggle {
+
+}
+
+.toggle-close {
+	content: 'x'; 
+	color: #fff;
+	font-weight: 300;
+	font-family: Arial, sans-serif;
+}
+
+.toggle-open {
+
+}
+
+button#overlay-open,
+button#overlay-close {
+	vertical-align: middle;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	line-height:1.0em;
+}
+
+
+.overlay {
+	overflow: hidden;
+	width: 100vw;
+	height: 100%;
+	z-index: 112;
+	background-color: inherit;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	transition-property: left, opacity;
+	transition-duration: 0.3s, 0.3s;
+	transition-timing-function: ease-out, ease-out;
+	transition-delay: 0.0s, 0.0s;
+}
+
+
+.drawer-off {
+	left: -100vw;
+}
+
+.drawer-on {
+	left:0px;
+}
+
+
+
+@media screen and (min-width: 750px) {
+	.navigation-main .menu {
+		display:inline-block;
+	}
+
+	
+	.drawer-off {
+		left:-50vw;
+	}
+	
+	.drawer-on {
+		left:0px;
+	}
+	
+	.zoom-off {
+		left: -300vw;
+		transform: scale(3.0,3.0);
+	}
+	
+	.zoom-on {
+		transform: scale(1.0,1.0);	
+	}
+
+
+	.overlay-content {
+		padding-left:4%;
+	}
+
+
+	.overlay {
+		width: 50vw;
+		transition-property: left, transform;
+		transition-duration: 0.3s, 0.3s;
+		transition-timing-function: ease-out, ease-in;
+		transition-delay: 0.0s, 0.2s;
+	}
+
+}

@@ -1,0 +1,64 @@
+/**
+ * Styles for the Left and Right Sidebars.
+ * Defined in sidebar-left.php / sidebar-right.php
+ */
+
+.sidebar {
+	max-width: 50%;
+	display: none;
+	float: none;
+	display:block;
+	vertical-align: top;
+	background-color:inherit;
+	width:20%;
+	font-size:12px;
+}
+
+aside.sidebar {
+	display:none;
+}
+
+#primary {
+	float: none !important;
+	display: inline-block;
+	width:100%;
+}
+
+#sidebar-right {
+	display:none;
+	width:15%;
+}
+
+#sidebar-left {
+	width:10%;
+}
+
+@media screen and (min-width:1000px) {
+	.sidebar,
+	aside.sidebar {
+		display:inline-block;
+	}
+	#primary {
+		width: 78%;
+		padding-left:2%;
+		padding-right:2%;
+	}
+	body.home #primary {
+		width:100%;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	#sidebar-right {
+		display:inline-block;
+	}
+	#primary {
+		width:68%;
+		padding-left:4%;
+		padding-right:4%;
+	}
+}
+
+body:not(.home) .site-content-contain {
+	margin-top:75px;
+}

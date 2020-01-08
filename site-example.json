@@ -1,0 +1,140 @@
+{
+	"show-homepage-pages": true,
+	"show-homepage-sections":false,
+	"show-homepage-recent-posts":false,
+	"background-color":"purple",
+	"color":"rgba(254,252,245,1.0)",
+	"banner-image":"https:\/\/www.sites.com\/my-special-image",
+	"banner-logo":"",
+	"elements":{
+		"global-header":{
+			"css":{
+				"background-color":"purple",
+				"color":"rgba(255,255,255,0.8)"
+			}
+		},
+		"site-content":{
+			"css":{
+				"background-color":"#000",
+				"color":"#fff"
+			}
+		},
+		"section-home":{
+			"css":{
+				"background-color":"mediumpurple",
+				"color":"#fff"
+			}
+		},
+		"site-header":{
+			"css":{
+				"background-image":"url(/wp-content/themes/childtheme/assets/images/maze.png)",
+				"background-repeat":"no-repeat",
+				"background-position":"bottom right",
+				"background-size":"50%",
+				"background-color":"rgba(254,252,245,1.0)"
+			}
+		}   	
+		
+	},
+	"pages":[
+		{
+			"id":"page-1",
+			"title":"Early Bird Registration - Until November 26",
+			"content":"<strong>Members:</strong><br />Lawyers $290  |  NonLawyers $210<br /><br /><strong>NonMembers:</strong><br />Lawyers $355  |  NonLawyers $270<br /><br /> <strong>Students</strong> - $25, includes $10 membership<br /><strong>Judges</strong> - $290<br /><strong>Social Event Only Attendees</strong>(<em>scroll down to bottom of page for details</em>) - $100 ",
+			"css":{
+				"background-color":"red"
+			},
+			"reference":"https://www.oadp.org/facts/costs"
+		},
+
+		{
+			"id":"page-2",
+			"title":"Stander Registration - After November 26",
+			"content":"<strong>Members:</strong><br />Lawyers $315  |  NonLawyers $235<br /><br /><strong>NonMembers:</strong><br />Lawyers $380  |  NonLawyers $295<br /><br /> <strong>Students</strong> - $50, includes $10 membership<br /><strong>Judges</strong> - $315<br /><strong>Social Event Only Attendees</strong> - $100 ",
+			"css":{
+				"background-color":"red"
+			},
+			"reference":"https://www.oadp.org/facts/costs"
+		},
+
+
+		{
+			"id":"page-3",
+			"title":"Who may attend?",
+			"content":"This program is open to defense lawyers and those professionals and law students directly involved in the defense function.",
+			"css":{
+				"background-color":"red"
+			},
+			"reference":"https://www.oadp.org/facts/costs"
+		},
+		{
+			"id":"page-4",
+			"title":"What’s included in the fee?",
+			"content":"• Seminar admission (Fri–Sat)<br />• Written material in advance via download link<br />• CLE credit<br />• Continental breakfast on Friday<br />• Lunch on Friday<br />• Hot breakfast on Saturday<br />• Refreshments during breaks ",
+			"css":{
+				"background-color":"blue"
+			}
+		},
+		{
+			"id":"page-5",
+			"title":"Financial assistance?",
+			"content":"Members contact OCDLA by <strong>November 26</strong> about scholarships, payment plans or creative payment arrangements.",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"page-6",
+			"title":"Cancellations",
+			"content":"Seminar cancellations made before <strong>November 27</strong> will receive a refund less a $25 cancellation fee. Seminar cancellations made after November 27 — once material download link has been emailed — will receive a refund less a $100 cancellation/written material fee. No-show policy: Written materials are emailed in advance to all participants. Audio materials in the form of MP3 recordings will be sent to OCDLA members only; nonmembers who do not attend are ineligible to receive audio recordings or a refund",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"page-7",
+			"title":"No-show Policy",
+			"content":"Written materials are sent in advance to all participants. Audio materials in the form of MP3 recordings well be sent to OCDLA members only; nonmembers who do not attend are ineligible to receive the recordings or a refund.",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"page-8",
+			"title":"CLE Credit",
+			"content":"Credit will be applied for in Oregon for 6.5 general, 1 mental health and substance use and 2 ethics credits; in Washington for 7.5 general and 2 ethics credits. Oregon is an approved jurisdiction in California. For other state accreditation information, call OCDLA at 541-686-8716",
+			"css":{
+				"background-color":"green"
+			}
+		},
+		{
+			"id":"page-9",
+			"title":"Social Event Only Attendees",
+			"content":"This option is for retired members or those not currently practicing law who do not want to attend the CLE but would like to attend the social events — coffee, snacks at breaks, lunch, breakfast. This does not include the Ken Morrow Award dinner or the reception that precedes it.",
+			"css":{
+				"background-color":"green"
+			}
+		}
+
+	],
+	"site-info":{
+		"org-name":"OCDLA",
+		"address":"1234 Super duper Lane, Eugene, OR  97402",
+		"phone":"541-687-1234",
+		"email":"info@ocdla.org",
+		"copyright":"Copyright 2019, OCDLA",
+		"website":"ocdla.org"
+	},
+	"social":{
+		"facebook":"",
+		"twitter":"",
+		"instagram":"",
+		"tumblr":"",
+		"youtube":"",
+		"zoom":"",
+		"vimeo":""
+	},
+	"comments":[
+		{"Note":"Represent a theme instance as JSON."}
+	]
+}

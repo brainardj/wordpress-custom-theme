@@ -1,0 +1,84 @@
+/*General Overrides*/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.entry-content {
+	font-size: 0.9em;
+	line-height: 1.6em;
+	color:inherit;
+}
+
+
+.wrap {
+	max-width:none;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+
+.site-content-contain {
+	text-align:center;
+	padding-left: 3%;
+	padding-right: 3%;
+	overflow-x: hidden;
+}
+.site-content {
+	text-align:left;
+}
+
+.site-content-contain .site-content {
+	margin: 0 auto;
+}
+
+
+body:not(.home) h1.entry-title {
+	margin-top:0px;
+}
+
+
+@media screen and (min-width:750px){
+
+	.site-content-contain {
+		padding-left: 5%;
+		padding-right:5%;
+		margin-top:20px;
+	}
+	.wireframe-front-page .site-content {
+		padding-left:5%;
+		padding-right:5%;
+	}
+	
+
+	body:not(.home) .site-header{
+		display:none;
+	}
+	
+	body.page-template-front-page .site-header {
+		display:block;
+	}
+
+	/*Banner widget area styles*/
+	.banner-widget-area{
+		text-align: center;
+	}
+
+
+}
+
+
+
+h2.widget-title {
+	color:inherit;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 800;
+	letter-spacing: 0.1818em;
+	margin-bottom: 1.5em;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-size: 0.6875rem;
+	margin-bottom: 2em;
+}

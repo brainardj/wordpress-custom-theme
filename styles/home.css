@@ -1,0 +1,25 @@
+.home #content {
+	margin-top:50px;
+}
+
+
+.section-home {
+	margin-left: -15%;
+	background-color: darkcyan;
+	color: #fff;
+	padding: 15%;
+	margin-bottom: 3.0em;
+	margin-right: -15%;
+}
+
+
+h2.section-title {
+	font-size: 3.0em;
+}
+
+.section-content {
+	font-size: 1.3em;
+	line-height: 1.6em;	
+}
+
+
